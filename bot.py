@@ -17,9 +17,9 @@ print("I am awake")
 
 bot = Client(
     "bot",
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
-    bot_token=Config.BOT_TOKEN,
+    api_id = 10475996
+    api_hash = 59e438d2b2ba12ab84b9c2ae57d624c9
+    bot_token = 5485921311:AAGrDW4nhOtnvfMluzFdPsrsPLvOLNEfs4I
     plugins=plugins
 )
 bot.run()
